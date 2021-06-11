@@ -1,0 +1,8 @@
+.resize-img {
+    height: 4rem
+}
+
+.register-image{
+background-image: url("../img/logo.png");
+background-size:auto;
+}
