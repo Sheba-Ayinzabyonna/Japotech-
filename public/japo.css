@@ -1,0 +1,72 @@
+.body{
+    font-family: Verdana,sans-serif !important;
+}
+.logo {
+padding-top: 100px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 5px 3px rgb(179, 182, 179) ; 
+
+}
+.about-container{
+      width: 1200px;
+    height: 400px;
+    margin-top: 50px;
+}
+.about-text{
+   box-shadow: 0px 8px 5px green ; 
+    width:600px;
+    float: right;
+    padding:50px 80px 50px 50px;
+
+}
+.about-image{
+    width:600px;
+    float: left;
+    padding:50px 80px 50px 50px;
+
+}
+.about-image img{
+    width:440px;
+    height:280px;
+}
+
+.client-status{
+    width: 393px;
+    height: max-content;
+   flex: auto;
+ 
+}
+.title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    /* box-shadow: rgb(124, 180, 124) 5px 0px 5px 0px;  */
+    box-shadow: 0px 8px 5px rgb(134, 192, 134) ; 
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.dash{
+  
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(206, 202, 202) ; 
+}
+
+.card-img-top{
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 90px;
+    /* margin-bottom: 50px; */
+    
+}
+.login{
+ 
+    margin-top: 8px;
+}
