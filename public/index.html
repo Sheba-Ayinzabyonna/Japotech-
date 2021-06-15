@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="style.css">
+    
+    <!--this was the old css file 
     <link rel="stylesheet" href="japo.css">
+    -->
+
+    <!--new css file
+      if it doesnt run then change the ..\ to ../
+  <link rel="stylesheet" href="..\japo.css">
+    -->
+
+
+    <link rel="stylesheet" href="..\japo.css">
     
   </head>
-
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}
-</style>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -26,15 +28,15 @@ h1, h2, h3, h4, h5, h6 {
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#Services" class="w3-bar-item w3-button">Services</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-      <a href="login.html" class="w3-bar-item w3-button">Login</a>
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+      <a href="login.html"class="w3-bar-item w3-button">Login</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px;" id="home">
   <div class ="logo w3-image"><img src="logo (1).png" alt="logo" height="250" width="300"></div>
   
 </header>
@@ -51,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     <div class="about-text">
       <h1 class="w3-center">About JAPOTECH</h1><br>
       <h5 class="w3-center"></h5>
-      <p class="w3-large"> Our vision is to become the fastest ICT company in East Africa. We offer quality and cost effective Telecom, IT and Training Services.</p>
+      <p class="w3-large"> Our vision is to become the fastest ICT company in East Africa. Our Mision is to provide our customers with high quality and cost effective ICT Solutions by using local talent, world class processes and leveraging strategic partnerships.    Japotech Solutions was formed in 2016 by a team of seasoned ICT experts and has become one of the most celebrated Ugandan ICT Companies and is now ISO9001 certified. </p>
       <p class="w3-large w3-text-grey w3-hide-medium"></p>
     </div>
   </div>
@@ -59,53 +61,66 @@ h1, h2, h3, h4, h5, h6 {
   <hr>
   
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center"></h1><br>
-      <h4></h4>
-      <p class="w3-text-grey"></p><br>
-    
-      <h4></h4>
-      <p class="w3-text-grey"></p><br>
-    
-      <h4></h4>
-      <p class="w3-text-grey"></p><br>
-    
-      <h4></h4>
-      <p class="w3-text-grey"></p><br>
-    
-      <h4></h4>
-      <p class="w3-text-grey"></p>    
+  <div class="services" id="services">
+    <div class="service-text">
+      <h1>Our Services</h1>
+      <P><h3>We offer quality and Cost effective Telecom, IT and Training Services among which include;</h3></P>
+      <ul>
+        <li><h4>Telecom Site Installations - Radio & Microwave.</h4></li>
+        <li><h4>Internet Connectivity and Installation.</h4></li>
+        <li><h4>Drive Test Optimisation.</h4></li>
+        <li><h4>Network Planning and Design.</h4></li>
+        <li><h4>Site Survey, Network Maintenance as well as Consultancy.</h4></li>
+      </ul>    
     </div>
     
-    <div class="w3-col l6 w3-padding-large">
-      <img src="IMG-20210610-WA0005.jpg" class="logo" alt="logo" style="width:100%">
+    <div class="service-image">
+      <img src="IMG-20210610-WA0005.jpg" class="image" alt="image">
     </div>
   </div>
 
   <hr>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>The vision is to become the fastest ICT company in East Africa. Do not hesitate to contact us.</p>
-    <p class="w3-text-blue-grey w3-large"><b></b></p>
-    <p>You can also contact us by phone or email , or you can send us a message here:</p>
+  <div class="contact" id="contact">
+    <div class="contact-container">
+    <div class="contact-text">
+      <h1>Contact Us</h1><br>
+      <p><h4>1st floor, Plot 19,Bukoto Street, Kamwokya, Kampala, Uganda. Do not hesitate to contact us.</p>
+      <p class="w3-text-blue-grey w3-large"><b></b></p>
+      <p>You can also contact us by phone +256393193706 or email info@japotechsolutions.co.ug, or you can send us a message here:</h4</p>
+    </div>
+    <div class="contact-image">
+      <!---this was changed to refer to the outside picture.
+      if it doesnt work change to ../picture.jpeg or /picture.jpeg
+      -->
+      <img src="..\picture.jpeg" class="picture" alt="picture">
+    </div>
+    </div>
+   
+    <div class="contact-form">
+      
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value=""></p>
+      <p><input class="w3-input w3-padding-16" type="Email" placeholder="Email Address" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="Location" placeholder="Location" required name="Location" value=""></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
       <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
     </form>
   </div>
   
 <!-- End page content -->
+<div class=contact-socialmedia>
+   <!---this was changed to refer to the outside picture.
+      if it doesnt work change to ../social media.jpeg or /social media.jpeg
+      -->
+  <img src="..\social media.png" class="social-media" alt="social-media">
+</div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by Japotech Solutions</p>
 </footer>
 
 </body>
